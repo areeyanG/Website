@@ -62,13 +62,13 @@ export const profile = {
     email: 'areeyan.gonsalves@mail.utoronto.ca',
 
     /** TODO: Confirm your GitHub profile URL is correct and the account is public. */
-    github: 'https://github.com/areeyan-gonsalves',
+    github: 'https://github.com/areeyanG',
 
     /** GitHub handle shown as display text in the Contact section. */
-    githubHandle: '@areeyan-gonsalves',  // TODO: Match your actual GitHub username
+    githubHandle: '@areeyanG',  // TODO: Match your actual GitHub username
 
     /** TODO: Confirm your LinkedIn profile URL is correct and set to public. */
-    linkedin: 'https://linkedin.com/in/areeyan-gonsalves',
+    linkedin: 'https://linkedin.com/in/areeyan-g',
 
     /** Your name as it appears on LinkedIn (shown in contact card). */
     linkedinName: 'Areeyan Gonsalves',
@@ -190,13 +190,13 @@ export const profile = {
      * TODO: Keep only languages you can confidently be interviewed on.
      *       Remove anything you've only touched once.
      */
-    languages: ['Python', 'TypeScript', 'JavaScript', 'Rust', 'Go', 'C', 'Java', 'SQL'],
+    languages: ['Python', 'C/C++', 'JavaScript', 'HTML/CSS'],
 
     /**
      * Frameworks and libraries.
      * TODO: Same rule — keep what you've used in real projects.
      */
-    frameworks: ['React', 'Node.js', 'Flask', 'Express', 'Tailwind CSS', 'Prisma'],
+    frameworks: ['React'],
 
     /**
      * Tools and platforms.

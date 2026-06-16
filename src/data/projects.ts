@@ -165,7 +165,7 @@ export const timeline: TimelineItem[] = [
     organization: 'University of Toronto',
 
     // TODO: Confirm your actual start date
-    period: 'Sep 2023 — Present',
+    period: 'Sep 2024 — Present',
 
     // TODO: Replace with your real GPA (or remove "Current GPA: X.X/4.0" if
     //       you'd rather not disclose it).
@@ -185,7 +185,7 @@ export const timeline: TimelineItem[] = [
 
     // TODO: Confirm your exact job title
     title: 'Software Engineering Intern',
-    organization: 'Relay Financial',
+    organization: 'Intellect Design Arena',
 
     // TODO: Confirm exact start/end dates
     period: 'May 2025 — Aug 2025',
@@ -205,11 +205,11 @@ export const timeline: TimelineItem[] = [
     id: 3,
     type: 'leadership',
 
-    title: 'Technical Lead',
-    organization: 'UofT Blueprint',
+    title: 'Vice President of Technology',
+    organization: 'Web3 UofT',
 
     // TODO: Confirm dates
-    period: 'Sep 2024 — Present',
+    period: 'July 2025 — Present',
 
     // TODO: Replace "team of six developers" with your actual team size.
     //       Add a specific outcome: what did the platform do, who uses it?
