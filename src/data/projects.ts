@@ -221,13 +221,13 @@ export const timeline: TimelineItem[] = [
 
   {
     id: 4,
-    type: 'work',
+    type: 'leadership',
 
     title: 'Teaching Assistant — CSC148',
-    organization: 'University of Toronto',
+    organization: 'Scrollin',
 
     // TODO: Confirm exact dates
-    period: 'Jan 2024 — Apr 2024',
+    period: 'June 2026 — Present',
 
     // TODO: Replace "200+" with the real enrollment number for the course section(s) you TAed.
     description:
