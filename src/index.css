@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #fdf9ee;
+    color: #3a3835;
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: #b8d3eb;
+    color: #1e2f42;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-5xl mx-auto px-6 lg:px-8;
+  }
+
+  .section-label {
+    @apply text-xs font-semibold tracking-[0.15em] uppercase text-blue-500 mb-3;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-serif font-medium text-neutral-800 leading-tight;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-blue-500 text-white rounded-2xl font-medium text-sm
+           hover:bg-blue-600 transition-all duration-200 shadow-soft hover:shadow-card hover:-translate-y-0.5;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-cream-100 text-neutral-700 rounded-2xl font-medium text-sm
+           border border-neutral-200 hover:border-blue-300 hover:bg-blue-50 hover:text-blue-700
+           transition-all duration-200 hover:-translate-y-0.5;
+  }
+
+  .card {
+    @apply bg-white rounded-3xl p-6 shadow-soft border border-neutral-100
+           hover:shadow-card hover:-translate-y-1 transition-all duration-300;
+  }
+
+  .tag {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium;
+  }
+
+  .tag-blue {
+    @apply tag bg-blue-50 text-blue-600 border border-blue-100;
+  }
+
+  .tag-sage {
+    @apply tag bg-sage-50 text-sage-600 border border-sage-100;
+  }
+
+  .tag-lavender {
+    @apply tag bg-lavender-50 text-lavender-600 border border-lavender-100;
+  }
+
+  .tag-cream {
+    @apply tag bg-cream-200 text-neutral-600 border border-cream-300;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #fdf9ee;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4d0c8;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b5b0a5;
+}
